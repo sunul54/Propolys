@@ -139,7 +139,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &5898560
@@ -597,7 +597,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &215513889
@@ -641,7 +641,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &224413873
@@ -760,7 +760,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &245007154
@@ -901,7 +901,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &296900259
@@ -957,7 +957,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &328684159
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &351088231
@@ -1434,7 +1434,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &397389145
@@ -2162,7 +2162,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &516000526
@@ -2671,7 +2671,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &724443208
@@ -3552,7 +3552,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &991204078
@@ -3618,7 +3618,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1023687012
@@ -3688,7 +3688,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1037451517
@@ -3768,7 +3768,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1059163081
@@ -3923,7 +3923,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1102368340
@@ -4734,7 +4734,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1225978634
@@ -5583,7 +5583,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1306323854
@@ -5715,7 +5715,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1429061014
@@ -5781,7 +5781,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1457307180
@@ -5825,7 +5825,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1471756962
@@ -5896,7 +5896,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1483174126
@@ -5940,7 +5940,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1499885898
@@ -6105,7 +6105,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1549529194
@@ -6175,7 +6175,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1577996531
@@ -6241,7 +6241,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1599584509
@@ -6566,7 +6566,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1617793326
@@ -6799,7 +6799,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1662323873
@@ -6948,7 +6948,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1667771777
@@ -7014,7 +7014,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1681930467
@@ -7235,7 +7235,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1692511910
@@ -7279,7 +7279,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1708622602
@@ -7323,7 +7323,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1719123856
@@ -7442,7 +7442,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1731895941
@@ -7558,7 +7558,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1824664933
@@ -7712,7 +7712,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1887322661
@@ -8033,7 +8033,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1924242558
@@ -8077,7 +8077,7 @@ MonoBehaviour:
   onButtonActivated:
     m_PersistentCalls:
       m_Calls: []
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &1934380043
@@ -8466,7 +8466,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  moveDistance: 0.05
+  moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
 --- !u!65 &2015529120
