@@ -138,7 +138,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -512,13 +524,13 @@ Transform:
   m_GameObject: {fileID: 194048383}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7118728, z: -0, w: 0.7023084}
-  m_LocalPosition: {x: -24.31, y: 16.23, z: -3.01}
+  m_LocalPosition: {x: -1.6482887, y: -3.3553696, z: -4.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330585546}
   - {fileID: 1536382735}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 934321306}
   m_LocalEulerAnglesHint: {x: 0, y: 90.775, z: 0}
 --- !u!114 &194048390
 MonoBehaviour:
@@ -596,7 +608,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -640,7 +664,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -759,7 +795,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -900,7 +948,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -1251,7 +1311,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -1276,47 +1348,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03000001, y: 0.2, z: 0.2}
   m_Center: {x: -0.0049998527, y: -4.973799e-16, z: 0.04000191}
---- !u!64 &359713480
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267983253}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8976871302628283671, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
 --- !u!1001 &385971282
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 934321306}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 998d5ebe781ddab4aac835b0a1b68c52, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.33
+      value: -0.6682892
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 998d5ebe781ddab4aac835b0a1b68c52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.13
+      value: -5.455369
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 998d5ebe781ddab4aac835b0a1b68c52, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.11
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 998d5ebe781ddab4aac835b0a1b68c52, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1324,7 +1374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 998d5ebe781ddab4aac835b0a1b68c52, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 998d5ebe781ddab4aac835b0a1b68c52, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1332,7 +1382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 998d5ebe781ddab4aac835b0a1b68c52, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 998d5ebe781ddab4aac835b0a1b68c52, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1433,7 +1483,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 11
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -1475,7 +1537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &410087040
 Light:
   m_ObjectHideFlags: 0
@@ -2118,12 +2180,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477424907}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.335, y: 17.493, z: -2.95}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.3267117, y: -2.092369, z: -4.84}
   m_LocalScale: {x: 0.25, y: 5.1, z: 4.85}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 934321306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &477424912
 MonoBehaviour:
@@ -2161,7 +2223,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -2670,7 +2744,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -3347,6 +3433,59 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 622015879144661987, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
+--- !u!1 &934321304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934321306}
+  - component: {fileID: 934321305}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &934321305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934321304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c6d38cb48217d44904999d1d65d693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRotator
+  rotationDuration: 3
+--- !u!4 &934321306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934321304}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.031912036, z: -0, w: 0.9994907}
+  m_LocalPosition: {x: -19.683378, y: 19.58537, z: 7.5096855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030115651}
+  - {fileID: 1251023403}
+  - {fileID: 1464758652}
+  - {fileID: 477424911}
+  - {fileID: 1630936516}
+  - {fileID: 1937878361}
+  - {fileID: 454366653}
+  - {fileID: 194048388}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -3.657, z: 0}
 --- !u!1 &935784012
 GameObject:
   m_ObjectHideFlags: 0
@@ -3422,28 +3561,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935784012}
   m_CullTransparentMesh: 1
---- !u!64 &973626270
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267983279}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3859396022382232422, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
 --- !u!59 &984891240
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -3551,7 +3668,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -3617,7 +3746,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -3668,6 +3809,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.02, y: 0.019999998, z: 0.019999996}
   m_Center: {x: 0, y: 0, z: 0.000000014901161}
+--- !u!4 &1030115651 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
+  m_PrefabInstance: {fileID: 1686236158}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1037451512 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -319003468299046552, guid: 9ecff7aee6a782c44ade12ea31d50687, type: 3}
@@ -3687,7 +3833,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -3767,7 +3925,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -3922,7 +4092,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -4733,7 +4915,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -4795,7 +4989,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 934321306}
     m_Modifications:
     - target: {fileID: -9022535709792473348, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_TagString
@@ -4807,15 +5001,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.58
+      value: 17.08171
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.016492
+      value: -4.568877
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.84
+      value: -4.73
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4823,15 +5017,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5097,7 +5291,7 @@ PrefabInstance:
       addedObject: {fileID: 990132451}
     - targetCorrespondingSourceObject: {fileID: 8062712730350187076, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 973626270}
+      addedObject: {fileID: 2122379338}
     - targetCorrespondingSourceObject: {fileID: 1156284477202926458, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1968513890}
@@ -5211,7 +5405,7 @@ PrefabInstance:
       addedObject: {fileID: 1524608742}
     - targetCorrespondingSourceObject: {fileID: -9022535709792473348, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 359713480}
+      addedObject: {fileID: 1949261726}
     - targetCorrespondingSourceObject: {fileID: -2078186332636383487, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1645782091}
@@ -5563,6 +5757,147 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1296260252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296260255}
+  - component: {fileID: 1296260254}
+  - component: {fileID: 1296260253}
+  - component: {fileID: 1296260256}
+  m_Layer: 0
+  m_Name: Spot Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1296260253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296260252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!108 &1296260254
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296260252}
+  m_Enabled: 1
+  serializedVersion: 12
+  m_Type: 0
+  m_Color: {r: 1, g: 0.8678199, b: 0, a: 1}
+  m_Intensity: 5000
+  m_Range: 16.526405
+  m_SpotAngle: 20.851435
+  m_InnerSpotAngle: 13.025114
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1296260255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296260252}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.8440217, y: -0, z: -0, w: 0.536309}
+  m_LocalPosition: {x: -2.01, y: 28.66, z: 3.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 115.13501, y: 0, z: 0}
+--- !u!114 &1296260256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296260252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c6d38cb48217d44904999d1d65d693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRotator
+  rotationDuration: 3
 --- !u!1 &1306323849 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5711573548937735336, guid: 9ecff7aee6a782c44ade12ea31d50687, type: 3}
@@ -5582,7 +5917,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -5714,7 +6061,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -5780,7 +6139,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -5805,6 +6176,133 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03000001, y: 0.2, z: 0.2}
   m_Center: {x: -0.0049998527, y: -4.973799e-16, z: 0.04000191}
+--- !u!1 &1464758649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464758652}
+  - component: {fileID: 1464758651}
+  - component: {fileID: 1464758650}
+  m_Layer: 0
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1464758650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464758649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!108 &1464758651
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464758649}
+  m_Enabled: 1
+  serializedVersion: 12
+  m_Type: 0
+  m_Color: {r: 1, g: 0.7124238, b: 0, a: 1}
+  m_Intensity: 90.49
+  m_Range: 12.04
+  m_SpotAngle: 87.76783
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1464758652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464758649}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.6322899, y: 1.5786304, z: -5.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 934321306}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1471756957 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4542533064694166578, guid: 9ecff7aee6a782c44ade12ea31d50687, type: 3}
@@ -5824,7 +6322,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -5895,7 +6405,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -5939,7 +6461,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -6104,7 +6638,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -6174,7 +6720,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -6240,7 +6798,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -6565,7 +7135,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -6696,12 +7278,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630936512}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.021, y: 16.62967, z: 0.699}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.640711, y: -2.9557, z: -1.191}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 934321306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1630936517
 Rigidbody:
@@ -6798,7 +7380,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -6947,7 +7541,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -7013,7 +7619,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -7044,7 +7662,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 934321306}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalScale.x
@@ -7060,15 +7678,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.346
+      value: 2.31571
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.5
+      value: -3.085369
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.574
+      value: -7.4639997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7076,15 +7694,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58602e1fb2a1909438e860ba28de4482, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7234,7 +7852,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -7278,7 +7908,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -7322,7 +7964,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -7441,7 +8095,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -7557,7 +8223,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -7711,7 +8389,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -8032,7 +8722,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1296260256}
+        m_TargetAssemblyTypeName: TargetRotator, Assembly-CSharp
+        m_MethodName: RotateToStep
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -8076,7 +8778,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleButton
   onButtonActivated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 934321304}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   moveDistance: 0.2
   pressDuration: 0.1
   releaseDuration: 0.2
@@ -8234,13 +8948,34 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937878356}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.926, y: 16.62967, z: 3.102}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.735711, y: -2.9557, z: 1.212}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 934321306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1949261726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267983253}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020000001, y: 0.020000001, z: 0.0018589693}
+  m_Center: {x: 1.20905e-10, y: -2.8033503e-10, z: -0.009070503}
 --- !u!64 &1968508141
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8534,6 +9269,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -877439443336659593, guid: 06cd71e0a0b916c4a84dfe8016718e08, type: 3}
+--- !u!65 &2122379338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267983279}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02, y: 0.020804431, z: 0.015414188}
+  m_Center: {x: 1.198701e-11, y: 0.0004022165, z: 0.0077070934}
 --- !u!1 &2131769967
 GameObject:
   m_ObjectHideFlags: 0
@@ -8615,15 +9371,10 @@ SceneRoots:
   m_Roots:
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1267983245}
-  - {fileID: 194048388}
   - {fileID: 744944548}
-  - {fileID: 1630936516}
-  - {fileID: 1937878361}
   - {fileID: 1122513691}
   - {fileID: 462714921}
   - {fileID: 423380303}
   - {fileID: 1896864082}
-  - {fileID: 385971282}
-  - {fileID: 477424911}
-  - {fileID: 1686236158}
+  - {fileID: 1296260255}
+  - {fileID: 934321306}
